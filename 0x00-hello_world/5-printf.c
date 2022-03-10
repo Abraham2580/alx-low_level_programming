@@ -8,6 +8,6 @@ int main(void)
 {
 	char alx[] = "with proper grammar, but the outcome is a piece of art,\n";
 
-	printf('%s", alx);
+	printf("%s", alx);
 	return (0);
 }
