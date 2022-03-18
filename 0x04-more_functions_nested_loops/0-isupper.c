@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #include "holberton.h"
 /**
@@ -14,3 +15,25 @@ int _isupper(int c)
 	else
 	return (0);
 }
+=======
+ #include "main.h"
+/**
+ * _isupper - evalue if letter is uppercase .
+ *@c: print int
+ * Return: Always 0.
+ */
+
+int _isupper(int c)
+{
+if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+
+else
+{
+return (0);
+}
+
+}
+>>>>>>> 8ca7219024f09d6765b6bc42f4dfae05624712c3
