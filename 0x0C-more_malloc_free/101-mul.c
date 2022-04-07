@@ -77,17 +77,17 @@ int _checknum(char *argv[], int n)
  * main - Entry point.
  * program that multiplies two positive numbers.
  * @argc: number of arguments.
-OAOAOA * @argv: arguments vector.
+ * @argv: arguments vector.
  *
-OAOAOA * Return: 0 - success.
+ * Return: 0 - success.
  */
 int main(int argc, char *argv[])
-OAOAOA{
+{
 	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
-OAOAOA
+
 	if (argc != 3)
-OAOAOA		printf("Error\n"), exit(98);
+		printf("Error\n"), exit(98);
 	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
 	_is_zero(argv), lnout = ln1 + ln2, nout = malloc(lnout + 1);
 	if (nout == NULL)
