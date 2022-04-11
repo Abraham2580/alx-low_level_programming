@@ -1,1 +1,1 @@
-this is the readme file for my c programming that i am learning
+This is a readme file for my alx low level
